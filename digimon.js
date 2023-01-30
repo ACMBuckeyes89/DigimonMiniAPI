@@ -25,7 +25,6 @@ async function findDigiMonster() {
 
     //Calling function to display data on screen
     displayDigimon(digimon);
-
 }
 
 function displayDigimon(event) {
