@@ -67,7 +67,7 @@ function noDigimon(event) {
     const noDigi = document.getElementById("diginfo");
 
     const noDisplay = document.createElement('h1');
-    noDisplay.innerText = `No Data On ${event.charAt(0).toUpperCase() + event.slice(1)}!`;
+    noDisplay.innerText = `No Data On ${event.charAt(0).toUpperCase() + event.slice(1).toLowerCase()}!`;
 
     noDigi.innerHTML = "";
 
